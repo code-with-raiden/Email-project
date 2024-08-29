@@ -15,7 +15,7 @@
                 
 # #                 f'Hi  <h3>{name}</h3> \n\nThanks for your query \nMy team will contact you within 24 hrs.\n \nthanks & regards,\nHelp Team.',
              
-# #                 'dingirani13@gmail.com',
+# #                 'your email address',
 # #                 [email],
 # #                 fail_silently=False,
 # #             )
@@ -23,8 +23,8 @@
 # #         send_mail(
 # #                 'New User Registration',
 # #                 f'A new user has registered.\n\nUsername: {name}\n\nEmail: {email}\n\n\nMessage: {query}',
-# #                 'dingirani13@gmail.com',
-# #                 ['dingirani13@gmail.com'],  # Replace with your email address
+# #                 'your emailid',
+# #                 ['your email address'],
 # #                 fail_silently=False,)
 
 
@@ -44,7 +44,7 @@ def query(request):
         name = request.POST.get('name')
         email = request.POST.get('email')
         query = request.POST.get('query')
-        image_url = 'https://i.ytimg.com/vi/gqqi2cqlST8/maxresdefault.jpg'  # Replace with your actual image URL
+        image_url = 'https://i.ytimg.com/vi/gqqi2cqlST8/maxresdefault.jpg'  
 
         # Send confirmation email to user
         send_mail(
@@ -72,8 +72,8 @@ def query(request):
         send_mail(
             'New User Registration',
             '',  
-            'dingirani13@gmail.com',  # This will appear as the "from" email
-            ['dingirani13@gmail.com'],  # Replace with your email address
+            'your email address',  
+            ['your email address'],  
             fail_silently=False,
             html_message=(
                 f'<html>'
