@@ -34,7 +34,7 @@
 # UI View
 
 ## Home Page
-![home png](https://github.com/user-attachments/assets/23b96d22-d24f-4736-8655-72d05eaadd95)
+![home](https://github.com/user-attachments/assets/15f448c4-f065-490f-a43e-c2f47c4c9e55)
 
 
 ## Email To Reciever
